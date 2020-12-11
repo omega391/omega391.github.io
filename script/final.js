@@ -10,15 +10,15 @@ $(document).ready(function() {
     // document is loaded and DOM is ready
   sound.play();
    display_c();
-  
+
 
 
 });
 function pauseAudio() {
-    if(music.playing(true)){
-        music.pause();
+    if(sound.playing(true)){
+        sound.pause();
     }else{
-        music.play();
+        sound.play();
     }
 }
 
