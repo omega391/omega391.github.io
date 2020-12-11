@@ -8,7 +8,7 @@ var sound = new Howl ({
 var music = document.getElementById('bg_music');
 $(document).ready(function() {
     // document is loaded and DOM is ready
-
+  sound.play();
    display_c();
 
 
