@@ -1,5 +1,5 @@
 var sound = new Howl ({
-   src:['media/bg.mp3'],
+   src:['media/bg_music2.mp3'],
    volume: 0.3,
    loop:true,
 
