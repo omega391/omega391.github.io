@@ -6,7 +6,7 @@ var sound = new Howl ({
 
 });
 var music = document.getElementById('bg_music');
-$(window).on("load",function() {
+$(window).load(function() {
     // document is loaded and DOM is ready
   sound.play();
    display_c();
