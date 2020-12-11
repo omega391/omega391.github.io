@@ -1,6 +1,6 @@
 
 var sound = new Howl ({
-   src:['media/bg.mp3'], 
+   src:['media/bg.mp3'],
    volume: 0.3,
    loop:true,
 
@@ -8,18 +8,19 @@ var sound = new Howl ({
 var music = document.getElementById('bg_music');
 $(document).ready(function() {
     // document is loaded and DOM is ready
+  sound.play();
    display_c();
   
-  
-   
+
+
 });
-function pauseAudio() {  
+function pauseAudio() {
     if(music.playing(true)){
         music.pause();
     }else{
         music.play();
     }
-} 
+}
 
 function display_c(){
 var refresh=1000; // Refresh rate in milli seconds
