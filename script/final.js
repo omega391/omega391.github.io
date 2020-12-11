@@ -1,11 +1,3 @@
-
-var sound = new Howl ({
-   src:['media/bg.mp3'],
-   volume: 0.3,
-   loop:true,
-
-});
-var music = document.getElementById('bg_music');
 $(window).load(function() {
     // document is loaded and DOM is ready
   sound.play();
@@ -14,6 +6,13 @@ $(window).load(function() {
 
 
 });
+var sound = new Howl ({
+   src:['media/bg.mp3'],
+   volume: 0.3,
+   loop:true,
+
+});
+var music = document.getElementById("bg_music");
 function pauseAudio() {
     if(sound.playing(true)){
         sound.pause();
