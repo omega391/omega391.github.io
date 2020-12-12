@@ -1,6 +1,6 @@
 var sound = new Howl ({
    src:['media/rmx.mp3'],
-   volume: 0.3,
+   volume: 0.2,
    loop:true,
 
 });
